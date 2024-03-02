@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Website</title>
+  </head>
+  <body>
+    <header>
+      <h1>Movie Reviews Central</h1>
+    </header>
+    <nav>
+      <ul>
+        <li>
+          <a href="#Latest Reviews">Latest Reviews</a>
+        </li>
+        <li>
+          <a href="#Top">Top Rated</a>
+        </li>
+        <li>
+          <a href="#contact">Contact Us</a>
+        </li>
+        <li>
+          <a href="#footer">About Us</a>
+        </li>
+      </ul>
+    </nav>
+    <section id="Latest Reviews">
+      <h1>Latest Reviews</h1>
+
+      <h1>Movie Title : <strong>Start Up</strong></h1>
+      <img
+        src="images/Startup.jpg"
+        alt="Movie image"
+        width="250px"
+        height="250px"
+      />
+      <p>
+        <strong>Movie Summery </strong> : A poor girl and a poor boy who want to
+        start a startup and success.
+      </p>
+      <video
+        src="images/Start-Up.E01.540p.NF.KoreanAngels.mkv"
+        width="250px"
+        height="250px"
+        controls
+      ></video>
+      <a href="#"> Read Full Reviews</a>
+    </section>
+    <section id="Top">
+      <h1>Top Rated Movies</h1>
+      <table>
+        <thead>
+          <tr>
+            <th>Rank</th>
+            <th>Title</th>
+            <th>Year</th>
+            <th>Rating</th>
+            <th>Gener</th>
+          </tr>
+        </thead>
+        <tr>
+          <td>1</td>
+          <td>Startup</td>
+          <td>2020</td>
+          <td>*****</td>
+          <td>Drama</td>
+        </tr>
+      </table>
+      <h1>Related Links</h1>
+      <ul>
+        <li>
+          <a href="#">Upcoming Movies</a>
+        </li>
+        <li>
+          <a href="#"> Interviews with Director </a>
+        </li>
+      </ul>
+    </section>
+    <section id="contact">
+      <h1>Contact Us</h1>
+      <form action="#">
+        <label for="name">Name : </label>
+        <input type="text" id="name" name="fname" />
+        <br />
+        <label for="email">Email : </label>
+        <input type="email" id="email" name="email" />
+        <br />
+        <lable>Favorite Movie Gener : </lable>
+        <select name="movie" id="AA">
+          <option value="action">Action</option>
+          <option value="drama">Drama</option>
+          <option value="novel">Novel</option>
+          <option value="western">Western</option>
+        </select>
+        <br />
+        <lable> Message : </lable>
+        <textarea> </textarea>
+        <br />
+        <input type="checkbox" name="checkbox" id="check" />
+        <lable> Subscribe to naewsletter</lable>
+        <br />
+        <input type="submit" value="send" />
+      </form>
+    </section>
+    <footer id="footer">
+      <p>©️ 2024 Movie Reviews Central</p>
+    </footer>
+    <br /><br /><br />
+  </body>
+</html>
